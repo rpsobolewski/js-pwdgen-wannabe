@@ -22,11 +22,14 @@ const userSurname= prompt('typer your Surname');
 
 const userColor= prompt('typer your favourite color');
 
-//chiedi chiave utente
+//chiedi numero utente
 
-const userKey= prompt('typer your key');
+const userNumber= prompt('typer your number');
+
+//creazione key
+const userKey= Number(userNumber)+23
+
 //seleziona tag tramite id in cui inserire nome
-
 const password= document.getElementById('password');
 
 
